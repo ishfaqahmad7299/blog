@@ -1,0 +1,250 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+/*  */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f0f0;
+}
+
+.top-section{
+    width: 100%;
+    background: #243036;
+    display: flex;
+    justify-content: space-around;
+
+}
+.top-image img{
+    height: 100px;
+    width: 200px;
+    
+}
+
+.top-per span{
+    color: #fff;
+    display: flex;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+ /*  */
+header{
+   background: #fabf2c;
+    background-size: cover;
+    height: auto;
+    
+}
+.active,.menu-header ul li:hover{
+    background: #243036;
+    border-radius: 5px; 
+}
+
+
+.btn-outline-light{
+    border-radius: 10px;
+    background: #fabf2c;
+    color: #000;
+
+}
+.btn-outline-light:hover{
+    background: #243036;
+    color: white;
+}
+/* 2nd navbar section */
+.navbar-two{
+    background: #0a005c;
+}
+
+
+/* .menu-bar ul {
+    list-style: none;
+    display: inline-flex;
+    color: #fff;
+} */
+.menu-bar ul li {
+    /* width: 120px; */
+    /* margin: 20px; */
+    /* padding: 10px; */
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ .menu-bar ul li:hover{
+    background: #fabf2c;
+    border-radius: 5px;
+}
+.sub-menu-1{
+    display: none;
+}
+.sub-menu-1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.sub-menu-1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 {
+display: block;
+position: absolute;
+background: #243036;
+margin-top: 10px;
+margin-left: -10px;
+width: 50%;
+}
+/*  */
+.sub-menu-2{
+    display: none;
+}
+.sub-menu-2 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.sub-menu-2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.menu-bar ul li:hover .sub-menu-2 {
+display: block;
+position: absolute;
+background: #243036;
+margin-top: 10px;
+margin-left: -15px;
+width: 30%;
+}
+/*  */
+.sub-menu-3{
+    display: none;
+}
+.sub-menu-3 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.sub-menu-3 ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.menu-bar ul li:hover .sub-menu-3 {
+display: block;
+position: absolute;
+background: #243036;
+margin-top: 10px;
+margin-left: -15px;
+width: 22%;
+}
+
+/* two seaction  */
+.card-section{
+    background: #fff;
+}
+
+
+/* our plan */
+.card{
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+/* card-seaction-imge */
+.card-imge-section{
+    display: flex;
+    margin-top: 30px;
+}
+
+.card-image img{
+    width: 100px;
+    
+}
+.card-per-section p{
+    font-size: 15px;
+    margin-left: 1.5rem;
+}
+
+.card-body{
+    text-align: center;
+    width: 100%;
+}
+
+/*  */
+.most-container{
+    background: #fff;
+}
+.most-container hr{
+    width: 90%;
+    height: 0.5%;
+    color: #000;
+}
+
+/*   footer section*/
+.footer-section{
+    background: #000000;
+    margin-top: 10rem;
+}
+.card-footer{
+    color: #fff;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.Popular-post h5{
+ margin-left: 4.0rem;
+color: #fff;
+justify-content: center;
+align-items: center;
+}
+hr{
+    margin-left: 4rem;
+    width: 40%;
+    color: #fff;
+}
+.Popular-post ul li{
+    list-style: none;
+    margin: 30px;
+}
+.Popular-post ul li a{
+    font-size: 0.9rem;
+    color: #fff;
+
+}
+.contact-us h5{
+    margin-left: 4.0rem;
+color: #fff;
+justify-content: center;
+align-items: center;
+}
+.contact-us h6{
+    color: #fabf2c;
+}
+
+.contact-us  p{
+    margin-top: 2rem;
+}
+.mejor-post img{
+    height: 80%;
+    width: 80%;
+    
+}
+
+
+/* media */
+
+@media  (min-width: 768px) {
+    .to{
+        display: block;
+    }
+ }
+
+
