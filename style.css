@@ -4,18 +4,20 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     background: #f0f0f0;
+    box-sizing: border-box;
 }
 
 .top-section{
     width: 100%;
     background: #243036;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .top-image img{
     height: 100px;
     width: 200px;
+    margin-left: 2rem;
     
 }
 
@@ -24,19 +26,22 @@ body{
     display: flex;
     margin-top: 20px;
     font-size: 10px;
+    margin-right: 2rem;
 }
 
  /*  */
-header{
+.header{
    background: #fabf2c;
     background-size: cover;
-    height: auto;
+   
+   
     
 }
-.active,.menu-header ul li:hover{
+ .active,.menu-header ul li a:hover{
     background: #243036;
-    border-radius: 5px; 
-}
+    border-radius: 5px;  
+    
+ }
 
 
 .btn-outline-light{
@@ -52,26 +57,20 @@ header{
 /* 2nd navbar section */
 .navbar-two{
     background: #0a005c;
+    
 }
 
 
-/* .menu-bar ul {
-    list-style: none;
-    display: inline-flex;
-    color: #fff;
-} */
-.menu-bar ul li {
-    /* width: 120px; */
-    /* margin: 20px; */
-    /* padding: 10px; */
-}
+
 .menu-bar ul li a{
     text-decoration: none;
     color: #fff;
+   
 }
  .menu-bar ul li:hover{
     background: #fabf2c;
     border-radius: 5px;
+    
 }
 .sub-menu-1{
     display: none;
@@ -147,14 +146,15 @@ width: 22%;
 
 /* our plan */
 .card{
-    height: 100%;
+    
+   height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
     min-width: 0;
     word-wrap: break-word;
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 0.5px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
 }
 
@@ -166,6 +166,7 @@ width: 22%;
 
 .card-image img{
     width: 100px;
+    height: 90%;
     
 }
 .card-per-section p{
@@ -173,9 +174,10 @@ width: 22%;
     margin-left: 1.5rem;
 }
 
-.card-body{
-    text-align: center;
-    width: 100%;
+
+.card-body p{
+    font-size: 13px;
+    
 }
 
 /*  */
@@ -187,7 +189,21 @@ width: 22%;
     height: 0.5%;
     color: #000;
 }
-
+.card-most-per{
+    display: flex;
+   
+    
+}
+#anti{
+    font-size: 10px;
+}
+#des-per{
+    font-size: 10px;
+}
+#viwes-per{
+    margin-left: 120px;
+    font-size: 10px;
+}
 /*   footer section*/
 .footer-section{
     background: #000000;
@@ -239,12 +255,14 @@ align-items: center;
 }
 
 
+
 /* media */
 
-@media  (min-width: 768px) {
-    .to{
-        display: block;
+
+/* @media  (min-width: 368px) {
+    .top-section{
+        display: none;
     }
- }
+ } */
 
 
